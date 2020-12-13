@@ -1,0 +1,149 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <script
+      defer
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+    ></script>
+  </head>
+
+  <body class="body">
+    <header id="header">
+      <div id="title-cluster">
+        <img
+          id="header-img"
+          src="https://i.imgur.com/AkAKn7e.png"
+          width="80px;"
+          height="80px;"
+          id="Bit Travel Logo"
+        />
+
+        <h1 id="title">Bit Travel</h1>
+      </div>
+
+      <nav id="nav-bar">
+        <h2>
+          <ul>
+            <li><a class="nav-link" href="#about-us"> About Us </a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a class="nav-link" href="#locations"> Locations </a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a class="nav-link" href="#contact-us"> Contact Us </a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </ul>
+        </h2>
+      </nav>
+    </header>
+
+    <div class="upper-body">
+      <section id="about-us">
+        <iframe
+          id="video"
+          width="1024"
+          height="576"
+          src="https://www.youtube.com/embed/uV9BygbL1II"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+      </section>
+      <div class="about-us-text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+          feugiat, nulla vitae varius maximus, justo ipsum suscipit risus,
+          euismod vestibulum libero nunc ac metus. Nullam accumsan, libero
+          molestie venenatis pharetra, ante odio fermentum orci, nec convallis
+          augue odio sit amet mi. Proin rhoncus lacus sed pretium tincidunt.
+          Suspendisse a est quis velit suscipit vehicula vel non lectus. Nullam
+          feugiat pretium euismod. Aenean condimentum metus at imperdiet
+          imperdiet. Donec auctor pulvinar risus, sit amet iaculis dui vulputate
+          a. Cras sed massa ut leo cursus suscipit. Suspendisse ac facilisis
+          quam. Ut euismod fringilla pellentesque. Nunc ligula nisi, volutpat
+          vel tempus id, euismod vel ante. Curabitur vel laoreet libero. Sed ac
+          felis nec arcu posuere congue id non felis. Morbi sit amet ultrices
+          lectus, nec vehicula orci.
+        </p>
+      </div>
+
+      <section id="locations">
+        <div>
+          <h1 id="locations-title">This Season's Top Locations</h1>
+        </div>
+
+        <div class="img-container">
+          <!-- the links here are supposed to lead to separate pages on the same website
+          the wikipedia links are just placeholders.-->
+          <figure class="loc">
+            <a href="https://en.wikipedia.org/wiki/Luang_Prabang"
+              ><img
+                class="loc-img"
+                src="https://i.imgur.com/f9sK3IU.jpg"
+                alt="Luang Prabang, Laos"
+            /></a>
+            <figcaption>Luang Prabang, Laos</figcaption>
+          </figure>
+          <figure class="loc">
+            <a href="https://en.wikipedia.org/wiki/Kyoto">
+              <img
+                class="loc-img"
+                src="https://i.imgur.com/hPcBYy0.jpg"
+                alt="Kyoto, Japan"
+              />
+            </a>
+            <figcaption>Kyoto, Japan</figcaption>
+          </figure>
+          <figure class="loc">
+            <a href="https://en.wikipedia.org/wiki/Cusco">
+              <img
+                class="loc-img"
+                src="https://i.imgur.com/TlKOfC3.jpg"
+                alt="Cusco, Peru"
+              />
+            </a>
+            <figcaption>Cusco, Peru</figcaption>
+          </figure>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <section id="contact-us" class="contact-us">
+        <h3 class="contact">Contact Us</h3>
+        <div class="footer-border">
+          <form
+            id="form"
+            class="form"
+            action="https://www.freecodecamp.com/email-submit"
+          >
+            <textarea
+              id="textarea"
+              class="textarea"
+              name="textarea"
+              cols="30"
+              rows="10"
+              placeholder="Ask us anything. We will reply by email within 2 days"
+              required
+            ></textarea>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              class="email"
+              placeholder="enter your email your email adress"
+              required
+            />
+            <input
+              id="submit"
+              type="submit"
+              class="submit"
+              name="submit"
+              placeholder="Contact Us"
+              required
+            />
+          </form>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
